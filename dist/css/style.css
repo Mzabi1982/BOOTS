@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
 
 /* CSS Variables */
 :root {
@@ -9,8 +9,13 @@
   --light-color: #f4f4f4;
 }
 
+#footer {
+  height: 300px;
+  background-color: blue;
+}
+
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   background-color: #252529;
   margin: 0;
   color: #fff;
@@ -56,7 +61,7 @@ section#entertainment {
 #showcase {
   margin: 0;
   padding: 0;
-  background: url('../img/showcase.jpg') no-repeat center/cover;
+  background: url("../img/showcase.jpg") no-repeat center/cover;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -244,7 +249,7 @@ nav a#openup {
     background: #444;
   }
   nav a#openup:after {
-    content: '|||';
+    content: "|||";
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     /* IE 9 */
@@ -266,7 +271,7 @@ nav a#openup {
 }
 .cf:before,
 .cf:after {
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -292,4 +297,10 @@ nav a#openup {
   #showcase p.lead {
     display: none;
   }
+}
+
+#test {
+  height: 300px;
+  width: 100%;
+  background: #d3071b;
 }
