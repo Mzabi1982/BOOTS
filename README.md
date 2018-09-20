@@ -1,4 +1,4 @@
-# MyTunes Landing Page
+# MyMusic Landing Page
 
 > Landing page modeled after iTunes page. This was used in a YouTube tutorial
 
